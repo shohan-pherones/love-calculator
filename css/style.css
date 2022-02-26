@@ -2,4 +2,111 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EE2B47;
+    color: #F6F6F6;
+}
+.container{
+    background-color: #2C2E3E;
+    width: 600px;
+    height: 700px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.container:hover{
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+.container .title h1{
+    text-align: center;
+    font-size: 3em;
+    color: #EE2B47;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.container .title p{
+    text-align: center;
+    font-size: 1.2em;
+    color: turquoise;
+    margin-top: 0;
+}
+.container .title p span{
+    color: #F6F6F6;
+}
+#cute{
+    color: turquoise;
+}
+.container .input{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px;
+    height: 250px;
+}
+.input label{
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+.input input{
+    border: 2px solid #EE2B47;
+    background: none;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    color: #F6F6F6;
+    padding: 8px;
+}
+.input input:focus{
+    outline: none;
+    border: 2px solid turquoise;
+    transition: border 0.3s ease-in-out;
+}
+.input button{
+    border: 2px solid #EE2B47;
+    background-color: #EE2B47;
+    color: #F6F6F6;
+    font-family: 'Ubuntu', sans-serif;;
+    font-weight: 600;
+    padding: 8px 0;
+    font-size: 1.4em;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: transparent;
+    border: 2px solid turquoise;
+    transition: all 0.3s ease-in-out;
+}
+.result h2{
+    text-align: center;
+    font-size: 1.8em;
+}
+#main-result{
+    text-align: center;
+    font-size: 2em;
+    color: turquoise;
+    margin-bottom: 10px;
+}
+#comment{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+footer p{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 1.2em;
 }
